@@ -250,3 +250,151 @@ h1 {
   max-width: 500px;
   height: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    padding-top: 10px;
+  }
+
+  .tab-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2rem;
+  }
+
+  .tab {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .weather-container {
+    margin-block: 2rem;
+  }
+
+  .grant-location-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .grant-location-container img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+  }
+
+  .grant-location-container p:first-of-type {
+    font-size: 1.25rem;
+  }
+
+  .grant-location-container p:last-of-type {
+    font-size: 0.75rem;
+  }
+
+  .parameter-container {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 1rem;
+  }
+
+  .parameter {
+    width: 100%;
+    max-width: none;
+  }
+
+  .form-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-container input {
+    width: 100%;
+    height: 35px;
+  }
+
+  .form-container .btn {
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+  }
+
+  .user-info-container p {
+    font-size: 1.25rem;
+  }
+
+  .name p {
+    font-size: 1.5rem;
+  }
+
+  .name img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .user-info-container p[data-temp] {
+    font-size: 2rem;
+  }
+
+  .error-container img {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  .tab {
+    font-size: 0.75rem;
+  }
+
+  .btn {
+    font-size: 0.75rem;
+    padding: 8px 20px;
+  }
+
+  .grant-location-container p:first-of-type {
+    font-size: 1rem;
+  }
+
+  .grant-location-container p:last-of-type {
+    font-size: 0.65rem;
+  }
+
+  .parameter p:first-of-type {
+    font-size: 1rem;
+  }
+
+  .parameter p:last-of-type {
+    font-size: 0.85rem;
+  }
+
+  .form-container input {
+    height: 30px;
+  }
+
+  .form-container .btn {
+    height: 30px;
+  }
+
+  .user-info-container p {
+    font-size: 1rem;
+  }
+
+  .name p {
+    font-size: 1.25rem;
+  }
+
+  .user-info-container p[data-temp] {
+    font-size: 1.75rem;
+  }
+}
