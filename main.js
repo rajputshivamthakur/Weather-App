@@ -28,6 +28,7 @@ function switchTab(clickedTab) {
       // pehle search wale tab pr tha, ab your weather tab visible krna hai
       searchForm.classList.remove("active");
       userInfoContainer.classList.remove("active");
+      errorContainer.classList.remove("active");
       // ab main your weather tab me aagya hu, toh weather bhi display krna padega, so let's check local storage first for coordinates, if we have saved them there.
       getfromSessionStorage();
     }
