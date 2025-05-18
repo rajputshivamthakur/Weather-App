@@ -40,7 +40,7 @@ A simple and responsive weather forecasting application built using **ReactJS** 
 ### ⚙️ Installation & Setup
 
 1. Clone the repository
-   `git clone https://github.com/yourusername/weather-app.git`
+   `git clone https://github.com/rajputshivamthakur/Weather-App.git`
 
 2. Navigate into the project directory
    `cd weather-app`
