@@ -96,6 +96,3 @@ npm test
 * React Testing Library Docs
 * FreeCodeCamp for API integration tutorials
 
----
-
-Would you like me to generate a similar README for your Notes App or Razorpay Clone too?
